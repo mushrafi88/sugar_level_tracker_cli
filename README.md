@@ -8,9 +8,14 @@ The data is stored in .csv format as well as pdf(latex table)
 requirements python pandas package,latex support(especially pdflatex)
 ```
 pip install pandas
+yay -S texlive-most
 
 ```
-
+first cd into the directory
+```
+git clone https://gitlab.com/mushrafi88/sugar_level_tracker_cli.git
+cd sugar_level_tracker_cli
+```
 
 to run the rofi version
 ```

@@ -17,9 +17,9 @@ git clone https://gitlab.com/mushrafi88/sugar_level_tracker_cli.git
 cd sugar_level_tracker_cli
 ```
 
-to run the rofi version
+to run the rofi version if u have rofi installed
 ```
-./rofi-sugar-level-tracker l6.6
+./rofi-sugar-level-tracker
 ```
 
 to run the cli 

@@ -2,7 +2,7 @@
 
 
 
-cd $HOME/sugar_level_tracker_cli
+#cd $HOME/sugar_level_tracker_cli
 
 #write to csv
 python sugar-level.py $1

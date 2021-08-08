@@ -2,7 +2,10 @@
 
 A commandline tool to keep track of your sugar level
 
-requirements python pandas package,latex support
+The data is stored in .csv format as well as pdf(latex table) 
+
+
+requirements python pandas package,latex support(especially pdflatex)
 ```
 pip install pandas
 

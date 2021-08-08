@@ -3,8 +3,11 @@
 A commandline tool to keep track of your sugar level
 
 requirements python pandas package,latex support
-```pip install pandas
 ```
+pip install pandas
+
+```
+
 
 to run the rofi version
 ```

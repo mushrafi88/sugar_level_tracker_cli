@@ -26,6 +26,7 @@ to run the cli
 ```
 ./sugar-level.sh f5.8
 ```
+to set the name of the patient in pdf edit the sugar_chart.tex
 
 the first string denotes the time and the rest denote sugar level 
 for insulin use i6+4 or whatever it is

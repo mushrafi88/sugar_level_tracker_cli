@@ -57,7 +57,7 @@ if __name__ == "__main__":
             df = data_replace(first_argument,df)
             df.to_csv('sugar_chart.csv',index=False,encoding='utf-8')
         else :
-            df = data_append(first_argument,df,date_cur,day_cur)
+            df = empty_append(df,date_cur,day_cur)
             df = data_replace(first_argument,df)
             df.to_csv('sugar_chart.csv',index=False,encoding='utf-8')
         

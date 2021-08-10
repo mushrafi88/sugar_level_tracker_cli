@@ -5,7 +5,7 @@
 #cd ~/sugar_level_tracker_cli
 mkdir -p output
 #write to csv
-python sugar-level.py $a
+python sugar-level.py $1
 #write to pdf
 
 python latex.py

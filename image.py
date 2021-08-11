@@ -13,7 +13,8 @@ for i in Time:
     df[i] = df[i].astype(np.float32)
     mean.append(df[i].mean().round(1))
 
-time = [8.5,11,14.5,23.75]
+#time of the day in 24h when the sugar is measured
+time = [8,11,17,23.75]
 
 df = {
     'Time' : time,

@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('sugar_chart.csv')
+df = df[df['Insulin'] == '6+4']
 df=df.replace('-',np.nan)
 
 Time = ['Fasting','2HAB','2HAL','2HAD']
